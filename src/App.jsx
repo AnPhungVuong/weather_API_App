@@ -93,6 +93,13 @@ const App = () => {
               className="w-8"
             />
           </button>
+          <button onClick={fetchWeather}>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/758/758651.png"
+              alt="..."
+              className="w-8"
+            />
+          </button>
         </div>
         <div
           className={`duration-300 delay-75  overflow-hidden
