@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import microphoneIcon from './assets/microphone.png';
 
 const Api_key = "5c86490ff1685b81ccc2dcc182a48a32";
 
@@ -93,13 +94,8 @@ const App = () => {
               className="w-8"
             />
           </button>
-          <button onClick={fetchWeather}>
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/758/758651.png"
-              alt="..."
-              className="w-8"
-            />
-          </button>
+          <img className='w-8 hover:cursor-pointer' src={microphoneIcon} alt="Microphone" />
+
         </div>
         <div
           className={`duration-300 delay-75  overflow-hidden
